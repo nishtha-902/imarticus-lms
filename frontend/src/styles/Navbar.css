@@ -1,0 +1,36 @@
+.navbar{
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background: white;
+  width: 100%;
+  z-index: 100;
+  box-shadow: #bdbcbc 0px 0px 10px 0px;
+}
+
+.collapse{
+  margin-right: 80px;
+}
+
+.navbar-nav{
+  gap: 30px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link{
+  margin-top: -40px;
+  font-size: 16px;
+  color: #686868 !important;
+}
+
+.nav-link:hover{
+  color: #3a3a3a;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

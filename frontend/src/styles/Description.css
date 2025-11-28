@@ -1,0 +1,217 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-nav {
+  background: #035642;
+  width: 80%;
+  height: 80px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+  z-index: 2;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: rgb(252, 250, 250);
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#description-container {
+  position: relative;
+  top: -40px;
+  background: white;
+  box-shadow: #4a4a4a 0px 0px 5px 0px;
+  border-radius: 5px;
+  padding: 120px 70px 30px 70px;
+  z-index: 1;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 500;
+  color: #035642;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 17px;
+  color: #3b3b3b;
+  margin-bottom: 30px;
+}
+
+li {
+  font-size: 13px;
+}
+
+#bold {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+ul,
+ol {
+  line-height: 25px;
+}
+
+#last {
+  margin-top: 30px;
+}
+
+#curriculum-container {
+  margin-top: 50px;
+  background: white;
+  box-shadow: #4a4a4a 0px 0px 5px 0px;
+  border-radius: 5px;
+  padding: 40px 70px;
+}
+
+.box {
+  background: rgb(245, 245, 245);
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #515151;
+  border-radius: 6px;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 20px;
+}
+
+#instructors-container {
+  margin-top: 130px;
+  background: white;
+  box-shadow: #4a4a4a 0px 0px 5px 0px;
+  border-radius: 5px;
+  padding: 40px 70px;
+}
+
+#instructors-container p {
+  margin-left: 220px;
+  margin-top: 20px;
+  color: #3b3b3b;
+}
+
+.instructor {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 70px;
+}
+
+.instructor h3 {
+  color: #035642;
+}
+
+.instructor h4 {
+  margin-top: 20px;
+  text-align: left;
+  color: #515151;
+}
+
+.instructor-image {
+  height: 150px;
+  width: 150px;
+}
+
+#faq-container {
+  margin-top: 130px;
+  background: white;
+  box-shadow: #4a4a4a 0px 0px 5px 0px;
+  border-radius: 5px;
+  padding: 40px 70px;
+}
+
+.faq h4 {
+  color: rgb(49, 48, 48);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.faq p {
+  font-size: 16px;
+}
+
+.line {
+  background: #e0dede;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .sub-nav {
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    gap: 10px;
+  }
+
+  .instructor h4 {
+    font-size: 19px;
+  }
+
+  #instructors-container p {
+    margin-left: 10px;
+  }
+
+  .instructor {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .instructor-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-nav {
+    display: none;
+  }
+
+  #description-container {
+    margin-top: -60px;
+    padding: 30px;
+  }
+
+  #curriculum-container {
+    margin-top: -10px;
+    padding: 30px;
+  }
+
+  #instructors-container {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  #faq-container {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  .instructor {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+  .instructor h4 {
+    font-size: 18px;
+  }
+  .instructor-image {
+    height: 100px;
+    width: 100px;
+  }
+}
